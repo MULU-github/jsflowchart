@@ -1,0 +1,53 @@
+{
+	"name": "jsflowchart",
+	"description": "JS Flowchart in Real-time",
+	"version": "0.0.1",
+	"publisher": "MULU",
+	"engines": {
+		"vscode": "^1.38.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:ShowJSFlowchart.start"
+	],
+	"repository": {
+		"type": "git",
+		"url": "TBD"
+	},
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "ShowJSFlowchart.start",
+				"title": "Show Flowchart",
+				"category": "Flowchart JS"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"command": "ShowJSFlowchart.start",
+					"group": "YourGroup@1"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"lint": "tslint -p ./",
+		"watch": "tsc -w -p ./"
+	},
+	"dependencies": {
+		"js2flowchart": "^1.1.3"
+	},
+	"devDependencies": {
+		"tslint": "^5.16.0",
+		"typescript": "^2.6.1",
+		"@types/vscode": "^1.38.0",
+		"@types/node": "^7.0.43",
+		"@types/mocha": "^2.2.42"
+	}
+}
