@@ -2,7 +2,7 @@
 	"name": "jsflowchart",
 	"description": "JS Flowchart in Real-time",
 	"version": "0.0.1",
-	"publisher": "MULU",
+	"publisher": "MULU-github",
 	"engines": {
 		"vscode": "^1.38.0"
 	},
