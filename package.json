@@ -1,7 +1,7 @@
 {
 	"name": "jsflowchart",
 	"description": "JS Flowchart in Real-time",
-	"version": "0.1.3",
+	"version": "0.1.6",
 	"publisher": "MULU-github",
 	"engines": {
 		"vscode": "^1.38.0"
@@ -10,10 +10,6 @@
 		"Other"
 	],
 	"icon": "images/icon.png",
-	"galleryBanner": {
-		"color": "#fffffa",
-		"theme": "dark"
-	},
 	"activationEvents": [
 		"onCommand:ShowJSFlowchart.start"
 	],
